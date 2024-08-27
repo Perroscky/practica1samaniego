@@ -1,2 +1,6 @@
-# practica1samaniego
-practica1 crear un repositorio
+# Luis A. Samaniego Segura
+### Carrera: Tecnologías de la Información
+### Materia: Fundamentos de Programación
+### Universidad: Universidad Estatal Amazonica
+
+---
