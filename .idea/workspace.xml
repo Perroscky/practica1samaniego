@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="364048d9-70dd-47b8-87c0-727a5046d83d" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change afterPath="$PROJECT_DIR$/Iteración de arreglos multidimensionales con bucles anidados/Matriz 3D con datos de temperaturas diarias en varias ciudades.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,24 +52,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Búsqueda en Arreglo Multidimensional.executor&quot;: &quot;Run&quot;,
-    &quot;Python.luis.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practicas UEA LASS.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LOANY/PycharmProjects/practica1samaniego/Crear y Compartir un Repositorio en GitHub&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Búsqueda en Arreglo Multidimensional.executor": "Run",
+    "Python.Exploración de una matriz 2D.executor": "Run",
+    "Python.Exploración de una matriz 3D.executor": "Run",
+    "Python.Matriz 3D con datos de temperaturas diarias en varias ciudades.executor": "Run",
+    "Python.Ordenación de Arreglo Multidimensional.executor": "Run",
+    "Python.luis.executor": "Run",
+    "Python.practicas UEA LASS.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/LOANY/PycharmProjects/practica1samaniego/Crear y Compartir un Repositorio en GitHub",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LOANY\PycharmProjects\practica1samaniego\Crear y Compartir un Repositorio en GitHub" />
@@ -99,7 +104,10 @@
       <workItem from="1724594915380" duration="107000" />
       <workItem from="1724713526587" duration="2531000" />
       <workItem from="1724719622055" duration="220000" />
-      <workItem from="1724772713078" duration="9543000" />
+      <workItem from="1724772713078" duration="11205000" />
+      <workItem from="1724795144015" duration="52000" />
+      <workItem from="1724795222835" duration="58000" />
+      <workItem from="1725554499088" duration="3783000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <option name="closed" value="true" />
@@ -253,7 +261,31 @@
       <option name="project" value="LOCAL" />
       <updated>1724791695985</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1724794242530</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1724794242530</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1724794356998</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1724794356998</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1724794484836</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1724794484836</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +315,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/practica1samaniego$luis.coverage" NAME="luis Coverage Results" MODIFIED="1724716526897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/practica1samaniego$Ordenación_de_Arreglo_Multidimensional.coverage" NAME="Ordenación de Arreglo Multidimensional Coverage Results" MODIFIED="1724794434357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ordenación de Arreglo Multidimensional" />
     <SUITE FILE_PATH="coverage/practica1samaniego$Búsqueda_en_Arreglo_Multidimensional.coverage" NAME="Búsqueda en Arreglo Multidimensional Coverage Results" MODIFIED="1724788621961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Búsqueda en Arreglo Multidimensional" />
+    <SUITE FILE_PATH="coverage/practica1samaniego$Matriz_3D_con_datos_de_temperaturas_diarias_en_varias_ciudades.coverage" NAME="Matriz 3D con datos de temperaturas diarias en varias ciudades Coverage Results" MODIFIED="1725576036735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iteración de arreglos multidimensionales con bucles anidados" />
+    <SUITE FILE_PATH="coverage/practica1samaniego$Exploración_de_una_matriz_3D.coverage" NAME="Exploración de una matriz 3D Coverage Results" MODIFIED="1725555420764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iteración de arreglos multidimensionales con bucles anidados" />
     <SUITE FILE_PATH="coverage/practica1samaniego$practicas_UEA_LASS.coverage" NAME="practicas UEA LASS Coverage Results" MODIFIED="1724560879881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/practica1samaniego$Exploración_de_una_matriz_2D.coverage" NAME="Exploración de una matriz 2D Coverage Results" MODIFIED="1725554975548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iteración de arreglos multidimensionales con bucles anidados" />
   </component>
 </project>
