@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="364048d9-70dd-47b8-87c0-727a5046d83d" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/Iteración de arreglos multidimensionales con bucles anidados/Matriz 3D con datos de temperaturas diarias en varias ciudades.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="364048d9-70dd-47b8-87c0-727a5046d83d" name="Changes" comment="Merge remote-tracking branch 'origin/main'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +23,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -57,6 +60,7 @@
     "Python.Búsqueda en Arreglo Multidimensional.executor": "Run",
     "Python.Exploración de una matriz 2D.executor": "Run",
     "Python.Exploración de una matriz 3D.executor": "Run",
+    "Python.Funcion.executor": "Run",
     "Python.Matriz 3D con datos de temperaturas diarias en varias ciudades.executor": "Run",
     "Python.Ordenación de Arreglo Multidimensional.executor": "Run",
     "Python.luis.executor": "Run",
@@ -64,7 +68,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/LOANY/PycharmProjects/practica1samaniego/Crear y Compartir un Repositorio en GitHub",
+    "last_opened_file_path": "C:/Users/LOANY/PycharmProjects/practica1samaniego/Desarrollo de Función para Calcular Temperaturas Promedio en Python",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -107,7 +111,8 @@
       <workItem from="1724772713078" duration="11205000" />
       <workItem from="1724795144015" duration="52000" />
       <workItem from="1724795222835" duration="58000" />
-      <workItem from="1725554499088" duration="3783000" />
+      <workItem from="1725554499088" duration="6245000" />
+      <workItem from="1726280322109" duration="2541000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <option name="closed" value="true" />
@@ -285,7 +290,55 @@
       <option name="project" value="LOCAL" />
       <updated>1724794484836</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1725576185364</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1725576185364</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1725576223124</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1725576223124</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1725576251308</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1725576251308</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1726283190249</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1726283190249</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1726283237449</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1726283237449</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1726283354162</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1726283354162</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +368,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/practica1samaniego$luis.coverage" NAME="luis Coverage Results" MODIFIED="1724716526897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/practica1samaniego$Funcion.coverage" NAME="Funcion Coverage Results" MODIFIED="1726282851646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Desarrollo de Función para Calcular Temperaturas Promedio en Python" />
     <SUITE FILE_PATH="coverage/practica1samaniego$Ordenación_de_Arreglo_Multidimensional.coverage" NAME="Ordenación de Arreglo Multidimensional Coverage Results" MODIFIED="1724794434357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ordenación de Arreglo Multidimensional" />
     <SUITE FILE_PATH="coverage/practica1samaniego$Búsqueda_en_Arreglo_Multidimensional.coverage" NAME="Búsqueda en Arreglo Multidimensional Coverage Results" MODIFIED="1724788621961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Búsqueda en Arreglo Multidimensional" />
     <SUITE FILE_PATH="coverage/practica1samaniego$Matriz_3D_con_datos_de_temperaturas_diarias_en_varias_ciudades.coverage" NAME="Matriz 3D con datos de temperaturas diarias en varias ciudades Coverage Results" MODIFIED="1725576036735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iteración de arreglos multidimensionales con bucles anidados" />
