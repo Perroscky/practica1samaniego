@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="364048d9-70dd-47b8-87c0-727a5046d83d" name="Changes" comment="Merge remote-tracking branch 'origin/main'" />
+    <list default="true" id="364048d9-70dd-47b8-87c0-727a5046d83d" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;Desarrollo de Función para Calcular Temperaturas Promedio en Python/Funcion.py">
+      <change afterPath="$PROJECT_DIR$/SEMANA 15/Diccionarios en Python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,29 +58,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Búsqueda en Arreglo Multidimensional.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Exploración de una matriz 2D.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Exploración de una matriz 3D.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Funcion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Matriz 3D con datos de temperaturas diarias en varias ciudades.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ordenación de Arreglo Multidimensional.executor&quot;: &quot;Run&quot;,
-    &quot;Python.luis.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practicas UEA LASS.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LOANY/PycharmProjects/practica1samaniego/Desarrollo de Función para Calcular Temperaturas Promedio en Python&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Búsqueda en Arreglo Multidimensional.executor": "Run",
+    "Python.CalculoDescuentoPython.executor": "Run",
+    "Python.Diccionarios en Python.executor": "Run",
+    "Python.Exploración de una matriz 2D.executor": "Run",
+    "Python.Exploración de una matriz 3D.executor": "Run",
+    "Python.Funcion.executor": "Run",
+    "Python.Matriz 3D con datos de temperaturas diarias en varias ciudades.executor": "Run",
+    "Python.Ordenación de Arreglo Multidimensional.executor": "Run",
+    "Python.luis.executor": "Run",
+    "Python.practicas UEA LASS.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/LOANY/PycharmProjects/practica1samaniego/Desarrollo de Función para Calcular Temperaturas Promedio en Python",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LOANY\PycharmProjects\practica1samaniego\Crear y Compartir un Repositorio en GitHub" />
@@ -114,6 +119,9 @@
       <workItem from="1725554499088" duration="6245000" />
       <workItem from="1726280322109" duration="2541000" />
       <workItem from="1726319915613" duration="131000" />
+      <workItem from="1727022708528" duration="1879000" />
+      <workItem from="1727024956928" duration="13000" />
+      <workItem from="1727625737888" duration="1857000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <option name="closed" value="true" />
@@ -363,7 +371,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726320463289</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;Desarrollo de Función para Calcular Temperaturas Promedio en Python/Funcion.py">
+      <option name="closed" value="true" />
+      <created>1727023731312</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1727023731312</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;Desarrollo de Función para Calcular Temperaturas Promedio en Python/Funcion.py">
+      <option name="closed" value="true" />
+      <created>1727023778411</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1727023778411</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,9 +413,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add files via upload" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;Desarrollo de Función para Calcular Temperaturas Promedio en Python/Funcion.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;Desarrollo de Función para Calcular Temperaturas Promedio en Python/Funcion.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/practica1samaniego$CalculoDescuentoPython.coverage" NAME="CalculoDescuentoPython Coverage Results" MODIFIED="1727024315334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA 14" />
+    <SUITE FILE_PATH="coverage/practica1samaniego$Diccionarios_en_Python.coverage" NAME="Diccionarios en Python Coverage Results" MODIFIED="1727634371218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA 15" />
     <SUITE FILE_PATH="coverage/practica1samaniego$luis.coverage" NAME="luis Coverage Results" MODIFIED="1724716526897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/practica1samaniego$Funcion.coverage" NAME="Funcion Coverage Results" MODIFIED="1726320077323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Desarrollo de Función para Calcular Temperaturas Promedio en Python" />
     <SUITE FILE_PATH="coverage/practica1samaniego$Ordenación_de_Arreglo_Multidimensional.coverage" NAME="Ordenación de Arreglo Multidimensional Coverage Results" MODIFIED="1724794434357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ordenación de Arreglo Multidimensional" />
